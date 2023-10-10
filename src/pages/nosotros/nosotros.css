@@ -1,0 +1,53 @@
+.sectionNosotros{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.sectionNosotros .pbackgraund{
+    font-size: 350px;
+    color: white;
+    opacity: 0.05;
+    font-weight: 900;
+    position: absolute;
+    top: 20%;
+    left: -15%;
+}
+
+.sectionNosotros a{
+    text-decoration: none;
+}
+
+.sectionNosotros .containerInfo{
+    width: 80%;
+    height: 50vh;
+    z-index: 100;
+}
+
+.sectionNosotros .contenierComoComprar{
+    width: 80%;
+    height: 50vh;
+    z-index: 100;
+}
+
+.contenierComoComprar .cartInfo{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.w-60{
+    width: 60%;
+}
+
+.w-40{
+    width: 40%;
+    
+}
+
+
+

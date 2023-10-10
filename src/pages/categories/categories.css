@@ -1,0 +1,65 @@
+.categoriasContainer{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.categoriasContainer .catContainer{
+    height: 50vh;
+    overflow: hidden;
+    padding-left: 10%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 10%;
+}
+
+.categoriasContainer .catContainer .pbackgraund{
+    font-size: 200px;
+    color: white;
+    opacity: 0.05;
+    font-weight: 900;
+    position: absolute;
+    top: 10%;
+    left: -15%;
+}
+
+.categoriasContainer .catContainer img{
+    width: 450px;
+    position: absolute;
+    top: 15%;
+    right: -20%;
+}
+
+.categoriasContainer .catContainer .verMasBtn button{
+    background-color: transparent;
+    border: solid 3px #7373C0;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+.rotate{
+    width: 400px !important;
+    transform: rotate(25deg);
+    top: 10% !important;
+}
+
+.bt{
+    border-top: 1px solid rgba(255, 255, 255, 0.133);
+}
+.bb{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.133);
+}
+.bl{
+    border-left: 1px solid rgba(255, 255, 255, 0.133);
+}
+.br{
+    border-right: 1px solid rgba(255, 255, 255, 0.133);
+}

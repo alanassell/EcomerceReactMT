@@ -1,0 +1,18 @@
+.sectionNuevos{
+    width: 80%;
+    max-height: 50vh;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.sectionNuevos .pbackgraund{
+    font-size: 350px;
+    color: white;
+    opacity: 0.05;
+    font-weight: 900;
+    position: absolute;
+    left: -20%;
+}

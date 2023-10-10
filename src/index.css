@@ -1,0 +1,66 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #242430;
+  overflow-x: hidden;
+}
+
+.mx{
+  margin: 0% 10%;
+}
+
+.bgwhite{
+  background-color: white;
+}
+
+.colorwhite{
+  color: white;
+}
+
+.bgviolet{
+  background-color: #7373C0;
+}
+
+.colorviolet{
+  color: #7373C0;
+}
+
+.f10{
+  font-size: 10px;
+}
+
+.f15{
+  font-size: 15px;
+}
+
+.f20{
+  font-size: 20px;
+}
+
+.f25{
+  font-size: 25px;
+}
+
+.f30{
+  font-size: 30px;
+}
+
+.f35{
+  font-size: 35px;
+}
+
+.f40{
+  font-size: 40px;
+}
+
+.fbold{
+  font-weight: 700;
+}
+
+.fblack{
+  font-weight: 900;
+}
